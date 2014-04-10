@@ -126,12 +126,18 @@ footer .tag-line {
 .battle-time-buttons.leaflet-control {
   bottom: 100px;
   left: 30%;
+  position: absolute;
 }
 
 .btn-default {
   text-shadow: none;
   background-color: #4b4B44;
   color: #bbb;
+}
+
+.battle {
+  height: 30px;
+  padding: 0;
 }
 
 .btn:hover {
@@ -150,18 +156,18 @@ text-align: center;
 text-decoration: none;
 }
 
-
-
 /*---- module ------*/
 
 .module-content{
   bottom: 0;
   left: 0;
-  top: 44px;
+  top: 2px;
   width: 100%;
+  position: absolute;
+  z-index: 0;
 }
 
-#form-search {
+.form-search {
   border-bottom: solid 1px #EDEBE4;
   height: 55px;
   margin-bottom: 0;
@@ -176,7 +182,6 @@ text-decoration: none;
 #input-search {
   width: 177px;
   margin-bottom: 10px;
-  top: -;
 }
 
 #loading-results {
@@ -192,6 +197,7 @@ text-decoration: none;
 }
 
 #unit-table {
+   bottom: 0;
    cursor: pointer;
    display: none;
    font-size: 14px;
@@ -199,12 +205,47 @@ text-decoration: none;
    margin-top:
    9px; overflow: auto;
    padding: 0 15px 9px 15px;
-   /*position: absolute; */
+   position: absolute;
    top: 75px;
    width: 320px;
 }
 
-.table {
+.table.table-bordered.table-condensed {
   background-color: white;
 }
+
+.sort {
+  text-align: left;
+  width:  150px;
+}
+
+.list {
+  overflow: auto;
+}
+
+#main {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 120px;
+  width: 100%;
+}
+
+#modules {
+  background-color: #F9F7F1;
+  /*
+  background-image: url('../img/region-shadow.png');
+  background-position: right;
+  background-repeat: repeat-y;
+  */
+  -moz-box-shadow: 3px 0 6px #D2D2D2;
+  -webkit-box-shadow: 3px 0 6px #D2D2D2;
+  box-shadow: 3px 0 6px #D2D2D2;
+  bottom: 0; left: 0;
+  position: absolute;
+  top: 0;
+  width: 350px;
+  z-index: 1;
+}
+
 
