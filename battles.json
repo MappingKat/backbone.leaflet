@@ -1,4 +1,7 @@
-[
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
 { "type": "Feature", "properties": { "BaseLevel": "Unit", "Force": "Union", "ID": "FFE92D0A-775A-4150-BBAD-002FAAA5B989", "Lat": 37.606757, "Lng": -77.350137, "Reassigned": "NULL", "Reassign_1": "NULL", "Shape_1": null, "TemporalID": "71529890-D4F5-4E7F-9380-783328862837", "TroopID": "1AAE0B5D-56AE-40B9-8D09-A17ED28F7805" }, "geometry": { "type": "Point", "coordinates": [ -77.350137, 37.606757 ] } },
 { "type": "Feature", "properties": { "BaseLevel": "Unit", "Force": "Confederate", "ID": "1F0533E6-1EFF-49ED-A362-01300F47A8A3", "Lat": 37.604721, "Lng": -77.37109, "Reassigned": "NULL", "Reassign_1": "NULL", "Shape_1": null, "TemporalID": "2652D569-4CD0-4995-8CC8-82EA8F391192", "TroopID": "91A861CA-3558-4425-9733-2E5DB7DA3DB4" }, "geometry": { "type": "Point", "coordinates": [ -77.37109, 37.604721 ] } },
 { "type": "Feature", "properties": { "BaseLevel": "Unit", "Force": "Confederate", "ID": "A63380CC-E9E3-4C8B-A6CA-01C79FB1163E", "Lat": 37.594277, "Lng": -77.3695, "Reassigned": "NULL", "Reassign_1": "NULL", "Shape_1": null, "TemporalID": "9BABFE02-2E08-4F68-A5D5-CF0628B3D2E7", "TroopID": "E6184821-2E1E-47F1-9614-97F1B3527C49" }, "geometry": { "type": "Point", "coordinates": [ -77.3695, 37.594277 ] } },
@@ -450,3 +453,4 @@
 { "type": "Feature", "properties": { "BaseLevel": "Unit", "Force": "Confederate", "ID": "0B00F4B5-2FF2-40EA-9018-FF0914BA7957", "Lat": 37.608454, "Lng": -77.363695, "Reassigned": "NULL", "Reassign_1": "NULL", "Shape_1": null, "TemporalID": "DE1E4F96-DA61-4649-970E-68E06453CC4B", "TroopID": "D98BC4B0-22DC-4633-A6A6-F3B96F871D17" }, "geometry": { "type": "Point", "coordinates": [ -77.363695, 37.608454 ] } },
 { "type": "Feature", "properties": { "BaseLevel": "Unit", "Force": "Confederate", "ID": "70798667-3A5B-40E8-AF3B-FFFDDF9B122E", "Lat": 37.615831, "Lng": -77.381823, "Reassigned": "NULL", "Reassign_1": "NULL", "Shape_1": null, "TemporalID": "7A8D9FC7-4C28-43FE-BDB2-19C2515CA6AC", "TroopID": "76F00C09-E1FD-4286-90F7-0BC4DC080A66" }, "geometry": { "type": "Point", "coordinates": [ -77.381823, 37.615831 ] } }
 ]
+}
