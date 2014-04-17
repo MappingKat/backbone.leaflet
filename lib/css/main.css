@@ -127,42 +127,29 @@ footer .tag-line {
 
 /*  timeline buttons */
 
-.battle-time-buttons.leaflet-control {
-  text-align: center;
+.battle-time-buttons {
+  display: inline-block;
+  right: 50%;
 }
 
 .battle {
-  height: 30px;
+  height: 10px;
   padding: 0;
+  text-align: center;
+  background-color: #908e7d;
 }
 
-/*.btn-default {
-  background-color:yellow;
-  margin-left:auto;
-  margin-right:auto;
-  display:block;
-  margin-top:22%;
-  margin-bottom:0%;
-  text-shadow: none;
-  background-color: #4b4B44;
-  color: #bbb;
-  position: absolute;
-}*/
+.time.btn {
+  background-color: #908e7d;
+  /*display: inline;*/
+}
 
-.btn-default:hover {
+.time.btn:hover {
   -webkit-text-shadow: 0 2px 2px #757571;
   -moz-text-shadow: 0 2px 2px #757571;
   -ms-text-shadow: 0 2px 2px #757571;
   -o-text-shadow: 0 2px 2px #757571;
-  text-shadow: 0 2px 2px #757571;
-  background-color: #74746a;
-  border-bottom: 1px solid #1a2423;
-  border-left: 1px solid #1a2423;
-  border-right: 1px solid #1a2423;
-  border-top: none;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
+  background-color: #4b4B44;
 }
 
 /*---- module ------*/
