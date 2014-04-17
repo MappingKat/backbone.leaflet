@@ -128,15 +128,18 @@ footer .tag-line {
 /*  timeline buttons */
 
 .battle-time-buttons {
-  display: inline-block;
-  right: 50%;
+  position: absolute;
+  z-index: 9000;
+  right: 120%;
+  height: 62px;
 }
 
 .battle {
-  height: 10px;
-  padding: 0;
   text-align: center;
-  background-color: #908e7d;
+  padding: 0;
+  margin: 0;
+  line-height: 80px;
+  background-color: #4b4B44;
 }
 
 .time.btn {
@@ -154,6 +157,18 @@ footer .tag-line {
 
 /*---- module ------*/
 
+#loading-results{
+  display: none;
+  text-align: 50px;
+}
+
+.control{
+  height: 60px;
+  width: 150px;
+  border:solid 1px #ccc;
+  border-radius: 5px;
+}
+
 .category{
   text-align: center;
   width: 200px;
@@ -162,50 +177,95 @@ footer .tag-line {
   margin-top: -15px;
 }
 
-.search {
-  margin-bottom: 3px;
+.list {
+  /*display: none;*/
+  overflow: auto;
+  font-family:sans-serif;
+  margin:0;
+  padding:5px 0 5px;
+  /*margin-top: 85px;*/
 }
 
-.control{
-  height: 60px;
-  width: 150px;
+.list > li {
+  display:block;
+  padding:0px;
+  box-shadow: inset 0 1px 0 #fff;
 }
 
-#input-search {
+.list > li:hover {
+  background-color: #d1b26f;
+}
+
+h3 {
+  font-size: 9px;
+  margin:0 0 0.3rem;
+  font-weight: normal;
+  font-weight:bold;
+}
+
+input {
   width: 200px;
   height: 27px;
+  border:solid 1px #ccc;
+  border-radius: 5px;
 }
 
-#loading-results {
-  color: #647634;
-  display: none;
+input:focus {
+  outline:none;
+  border-color:#aaa;
+}
+
+.sort {
+  border-radius: 2px;
+  display:inline-block;
+  border: none;
+  color:#fff;
   text-align: center;
-  margin-top: 113px;
-  margin-right: 49px;
+  text-decoration: none;
+  background-color: #d39800;
 }
 
-#no-results {
-  text-align: center;
-  display: none;
+.sort:hover {
+  text-decoration: none;
+  background-color:#1b8aba;
 }
 
-#unit-table {
- bottom: 0;
- cursor: pointer;
- display: none;
- font-size: 14px;
- left: 0;
- overflow: auto;
- padding: 1px;
- position: absolute;
- top: 150px;
- width: 295px;
+.sort:focus {
+  outline:none;
 }
 
-.table.table-bordered.table-condensed {
-  background-color: white;
+.sort:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content:"";
+  position: relative;
+  top:-10px;
+  right:-5px;
 }
 
-.list {
-  overflow: auto;
+.sort.asc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content:"";
+  position: relative;
+  top:13px;
+  right:-5px;
+}
+
+.sort.desc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  content:"";
+  position: relative;
+  top:-10px;
+  right:-5px;
 }
